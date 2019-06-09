@@ -1,0 +1,8 @@
+.post {
+  color: initial;
+  text-decoration: none !important;
+
+  &.visited {
+    opacity: 0.5;
+  }
+}

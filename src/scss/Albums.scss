@@ -1,0 +1,16 @@
+.album {
+  flex: 0 0 32%;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 0px 3px #6610f2;
+  }
+
+  .thumbnail {
+    flex: 0 0 30%;
+
+    img {
+      width: 100%;
+    }
+  }
+}
