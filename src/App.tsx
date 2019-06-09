@@ -8,7 +8,7 @@ import Posts from './components/Posts';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <header className="App-header">
           <nav className="fixed-top navbar navbar-dark bg-dark w-100">
