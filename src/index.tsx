@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import App from './App';
-import './index.css';
+import './index.scss';
 import * as serviceWorker from './serviceWorker';
 import { store } from './store/configureStore';
 

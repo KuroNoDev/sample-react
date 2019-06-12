@@ -143,7 +143,10 @@ class Albums extends Component<AlbumsProps> {
             <img src={logo} width="100" height="100" className="app-logo" alt=""></img>
           </div> : ''
         }
-        <Modal open={this.state.showModal} onClose={this.onAlbumClose.bind(this)} center>
+        <Modal open={this.state.showModal} onClose={this.onAlbumClose.bind(this)} classNames={{
+          overlay: 'modal-overlay',
+          modal: 'modal-body',
+        }} center>
           <h2 className="mb-4">{this.state.carouselAlbum.title}</h2>
           {
             this.state.showModal && this.state.carouselItems.length > 0 ?
